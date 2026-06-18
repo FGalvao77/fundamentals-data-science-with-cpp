@@ -1,0 +1,12 @@
+# Ignorar arquivos executáveis compilados pelo g++ (sem extensão no Linux)
+01-statistical_analysis
+02-advanced_statistics
+03-linear_regression
+04-naive_bayes
+
+# Se preferir uma regra geral para ignorar executáveis gerados:
+*.out
+*.exe
+
+# Ignorar configurações locais do VS Code (opcional, mas recomendado para manter o repositório limpo)
+.vscode/
